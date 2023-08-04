@@ -7,8 +7,9 @@ use Illuminate\Database\Schema\Blueprint;
 use Livewire\Livewire;
 use SolutionForest\FilamentTree\Macros\BlueprintMarcos;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class FilamentTreeServiceProvider extends PluginServiceProvider
+class FilamentTreeServiceProvider extends PackageServiceProvider
 {
     public static string $name = 'filament-tree';
 
